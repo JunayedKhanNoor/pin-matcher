@@ -36,7 +36,7 @@ function verifyPin(){
     const typedNumbers = document.getElementById('typed-numbers').value;
     const successMessage = document.getElementById('notify-success');
     const failError = document.getElementById('notify-fail');
-    if (pin == typedNumbers) {
+    if (typedNumbers!='' && pin == typedNumbers) {
         
         successMessage.style.display = 'block';
         failError.style.display = 'none';

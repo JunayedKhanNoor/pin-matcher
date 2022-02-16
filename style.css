@@ -4,6 +4,9 @@
 body {
     background: #10101B;
     height: 100vh;
+    background-image:url(image/1200px-Red_circle.svg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .container {
     margin-top: 30px;
